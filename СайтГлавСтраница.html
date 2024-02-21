@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>За спорт</title>
+
+    <link rel="shortcut icon" href="ИконкаСайта.ico" type="image/x-icon">
+
+    <style>
+        .sticky0 {
+            position: sticky;
+            top: 0;
+            background-color: rgba(141, 132, 189, 0.8); /* Задаем цвет фона с прозрачностью 0.5 */
+        }
+        .sticky1 {
+            background-color: rgba(255, 255, 255, 0.3); /* Задаем цвет фона с прозрачностью 0.5 */
+            font-family: 'Roboto', sans-serif;
+        }
+        .sticky2 {
+            background-color: rgba(255, 255, 255, 0.8); /* Задаем цвет фона с прозрачностью 0.5 */
+            font-family: 'Roboto', sans-serif;
+            color: rgb(127, 31, 125);
+        }
+       
+    </style>
+    <style>
+        .sign-wrap-4 {
+            /*background: #337AB7;*/
+            text-align: center;
+            padding: 20px 20px;
+        }
+        .sign-wrap-4 .sign_word {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 50px;
+            color: #FFF;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #d52828, 0 0 0.5em #4ac166, 0 0 0.1em #dae385;
+        }
+        .sign-wrap-4 .sign_word span {
+            animation: neon-4 linear infinite 2s;
+        }
+        @keyframes neon-4 {
+            78% {
+                color: inherit;
+                text-shadow: inherit;
+            }
+            79%{
+                color: #0b3960;
+            }
+            80% {
+                text-shadow: none;
+            }
+            81% {
+                color: inherit;
+                text-shadow: inherit;
+            }
+            82% {
+                color: #0b3960;
+                text-shadow: none;
+            }
+            83% {
+                color: inherit;
+                text-shadow: inherit;
+            }
+            92% {
+                color: #0b3960;
+                text-shadow: none;
+            }
+            92.5% {
+                color: inherit;
+                text-shadow: inherit;
+            }
+        }
+    </style>
+    <style>
+        .bg {
+            background: url(Фон.jpg);
+            background-size: cover;
+            position: fixed;
+            z-index: -10;
+            left: 0; right: 0; top: 0; bottom: 0;
+            -webkit-filter: blur(3px);
+            filter: blur(3px);
+            overflow: hidden;
+        }
+    </style>
+    <style>
+        .tt0 {
+            background: linear-gradient(to right,blue, green, gold, orange);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke-width: 0.8px;
+            -webkit-text-stroke-color: rgb(92, 92, 92);
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF;
+        }
+        .tt1 {
+            background: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 153, 255));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke-width: 0.4px;
+            -webkit-text-stroke-color: rgb(92, 92, 92);
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF;
+        }
+        .tt2 {
+            background: linear-gradient(to right, rgb(0, 229, 0), rgb(0, 229, 0));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-color: rgb(191, 191, 191);
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF;
+        }
+        .tt3 {
+            background: linear-gradient(to right, gold, gold);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-color: rgb(0, 0, 0);
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF;
+        }
+        .tt4 {
+            background: linear-gradient(to right, orange, orange);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-color: rgb(92, 92, 92);
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF;
+        }
+    </style>
+
+    <style>
+        .fixed-image-1 {
+            /*position: fixed;  Зафиксировать элемент на странице */
+            width: 25pt;
+            height:25pt;
+            position: fixed;
+            bottom: 10px;
+            
+        }
+    </style>
+    <style>
+        .fixed-image-2 {
+            /*position: fixed;  Зафиксировать элемент на странице */
+            width: 60pt;
+            height:60pt;
+            position: fixed;
+            z-index: 1;
+        }
+    </style>
+    <style>
+        .op {
+            text-indent: 40px;
+        }
+        .fokkk {
+            color: rgb(127, 31, 125);
+        }
+    </style>
+</head>
+<a href="#top"><img src="вверх.png" class="fixed-image-1" width="60" height="60"></a>
+<body>
+    <div class="bg"></div>
+    <table class="sticky0" position="fixed" border="0"
+           cellpadding="0" cellspacing="0" width="100%">
+        <img src="иконка.png" class="fixed-image-2" width="50" height="50">
+        <tr>
+            <th colspan=4>
+                <div class="sign-wrap-4">
+                    <div class="sign_word">Спорт<span> круг</span>лый<span> год</span> <span></span></div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th width="25%"><a href="СайтЗима.html" style="text-decoration: none; color: black"><font class="tt1" size="6">~Зима~</font></a></th>
+            <th width="25%"><a href="СайтВесна.html" style="text-decoration: none; color: black"><font class="tt2" size="6">~Весна~</font></a></th>
+            <th width="25%"><a href="СайтЛето.html" style="text-decoration: none; color: black"><font class="tt3" size="6">~Лето~</font></a></th>
+            <th width="25%"><a href="СайтОсень.html" style="text-decoration: none; color: black"><font class="tt4" size="6">~Осень~</font></a></th>
+        </tr>
+    </table>
+    <table class="sticky1" border="0"
+        cellpadding="0" cellspacing="3" width="100%">
+        <tr>
+            <td align="center"  width="20%">
+                <img src="и9.png" width="80" height="80"><br><br><br>
+                <img src="и7.png" width="80" height="80"><br><br><br>
+                <img src="и3.png" width="80" height="80"><br><br><br>
+                <img src="и4.png" width="80" height="80"><br><br><br>
+                <img src="и5.png" width="80" height="80"><br><br><br>
+                <img src="и6.png" width="80" height="80">
+            </td>
+            <td colspan=2 height="800px" align="center" valign="top">
+                <div class="fokkk"><h1>Отдай спорту время, а взамен получи здоровье!</h1></div>
+                <font class="op" face="Tahoma" size="4" align=justify>
+                    <p>Спорт. Всего одно слово, а как много оно значит! Занятие спортом - определенный вид деятельности людей, 
+                        направленная на достижение заданного результата в физическом развитии человека.</p>
+                    <p>Спорт - составная часть физической культуры, при которой основной упор делается на само физическое 
+                        развитие человека, укрепление его здоровья и самочувствия</p>
+                    <p>Профессиональный спорт - та его часть, в которой участвуют спортсмены, направленные именно на достижение определенного результата 
+                        в своей физической деятельности, на достижение победы и новых спортивных рекордов. Спортивные состязания, среди которых Олимпиады, 
+                        Чемпионаты и Турниры выявляют лучших спортсменов. Конечно, мечта каждого спортсмена - победа на Олимпийских играх, самых крупных мировых 
+                        состязаниях, которые возникли еще в Древней Греции, а впоследствии собирали участников со всего мира.</p>        
+                    <p>За свою историю развития, а история спорта простирается далеко-далеко в прошлое, начинаясь почти что с каменного века, 
+                        возникло большое количество видов спорта, в которых каждый может реализовать свои наиболее выдающиеся способности. 
+                        Обучение занятию спортом проводят различные спортивные организации, специализирующиеся на тех или иных видах спорта.</p>
+                    <p>Развитие, пропаганду и популяризацию спорта проводят различные Спортивные Федерации, Ассоциации и Союзы, хотя основную роль в этом играет Министерство спорта, 
+                        туризма и молодежной политики РФ.</p>
+                    <p>Спорт окружает нас практически с самого рождения, в детском саду, школе, институте. Многие выбирают его в качестве своей профессии. 
+                        И этому немало способствует огромная и все нарастающая популярность спорта и спортивного образа жизни.</p>
+                    <p>Спорт – это здоровье, хорошее самочувствие и гармоничное развитие. Спорт актуален в любое время года, необходим для всех людей,
+                         и особенно для подрастающего поколения. Чтобы получать максимум положительных эмоций, необходимо выбирать спортивные занятия 
+                         согласно своим предпочтениям. Поговорим о том, какие виды спорта для детей интересные зимой и летом.
+                    </p>                       
+                </font>
+            </td>
+            <td align="center"  width="20%">
+                <img src="и10.png" width="80" height="80"><br><br><br>
+                <img src="и1.png" width="80" height="80"><br><br><br>
+                <img src="и8.png" width="80" height="80"><br><br><br>
+                <img src="и11.png" width="80" height="80"><br><br><br>
+                <img src="и12.png" width="80" height="80"><br><br><br>
+                <img src="и13.png" width="80" height="80">
+            </td>
+    </table>
+    <p></p>
+    <table class="sticky2" border="0"
+        cellpadding="0" cellspacing="3" width="100%">
+        <tr >
+            <th width="10%"></th>
+            <th width="40%" align="left">
+                <h2><p>Мы за спорт!</p></h2>
+            </th>
+            <th width="10%" align="left">
+                <h2><p>Меню</p></h2>
+            </th>
+            <th width="15%"></th>
+            <th width="25%" align="left">
+                <h2><p>Автор</p></h2>
+            </th>
+        </tr>
+    </table>
+    <table class="sticky2" border="0"
+        cellpadding="0" cellspacing="3" width="100%">
+        <tr>
+            <th width="10%"></th>
+            <th width="40%" align="left" valign="top">
+                <a>
+                    город Гусев, ул. Ульяновых, 2/4, 238050
+                </a><br><br>
+                <a>
+                    тел.: 8(40143)33863
+                </a>
+            </th>
+            <th width="10%" align="left" valign="top">
+                <a href="СайтЗима.html" style="text-decoration: none; color: rgb(0, 153, 255)">Зима</a><br><br>
+                <a href="СайтВесна.html" style="text-decoration: none; color: rgb(0, 229, 0)">Весна</a><br><br>
+            </th>
+            <th width="15%" align="left" valign="top">
+                <a href="СайтЛето.html" style="text-decoration: none; color: rgb(203, 173, 0)">Лето</a><br><br>
+                <a href="СайтОсень.html" style="text-decoration: none; color: orange">Осень</a><br>
+            </th>
+            <th width="20%" align="left"  valign="top">
+                <img src="тг.png" width="40" height="40">
+                <a href="https://vk.com/nikita_stab"><img src="вк.png" width="40" height="40"></a>
+            </th>
+            <th width="5%" align="left" valign="bottom">   </th>
+        </tr>
+        <th colspan="6">
+            <a>Издано в 2024г</a> 
+        </th>
+    </table>
+    
+</body>
+</html>
